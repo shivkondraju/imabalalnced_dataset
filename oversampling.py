@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report,accuracy_score
 from sklearn.neighbors import LocalOutlierFactor
 
 #Readding Data file
-data=pd.read_csv('UPGRD_SECN_DATA_ABT2.csv',low_memory=False)
+data=pd.read_csv('imbal_data.csv',low_memory=False)
 
 class MultiColumnLabelEncoder:
     
